@@ -1,0 +1,35 @@
+{
+  "name": "animeworld-tizen",
+  "appName": "AnimeWorld",
+  "version": "0.0.3",
+  "description": "Test AnimeWorld Tizen App for Samsung Smart TV",
+  "packageType": "mods",
+  "websiteURL": "https://www.animeworld.so",
+  "main": "dist/bundle.min.js",
+  "type": "module",
+  "scripts": {
+    "build": "scripts/build.sh"
+  },
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackNext",
+    "MediaTrackPrevious"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "rollup": "^4.22.5",
+    "rollup-plugin-string": "^3.0.0"
+  },
+  "dependencies": {
+    "plyr": "^3.7.8",
+    "vidstack": "^1.12.11"
+  }
+}

@@ -1,0 +1,15 @@
+:focus {
+  outline: 3px solid red !important;
+}
+
+.focusable {
+  outline: 1px solid blue;
+}
+
+.this-message-does-not-harm-to-you-dont-remove-it {
+  display: none !important;
+}
+
+.widget:has(.this-message-does-not-harm-to-you-dont-remove-it) {
+  margin: 0 !important;
+}
